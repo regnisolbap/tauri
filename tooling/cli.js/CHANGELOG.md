@@ -1,5 +1,12 @@
 # Changelog
 
+## \[1.0.0-beta-rc.3]
+
+- The `tauri deps` command now properly detects `beta-rc` crate updates.
+  - [07eb6ce](https://www.github.com/tauri-apps/tauri/commit/07eb6cec8b60420e034b56c80f5fdca4a5aeb3e3) fix(cli.js):  use `cargo search` on crate latest version detection ([#1563](https://www.github.com/tauri-apps/tauri/pull/1563)) on 2021-04-21
+- Update minimum Node.js version to v12.13.0
+  - [1f089fb](https://www.github.com/tauri-apps/tauri/commit/1f089fb4f964c673dcab5784bdf1da2833487a7c) chore: update minimum nodejs version to 12.13.0 ([#1562](https://www.github.com/tauri-apps/tauri/pull/1562)) on 2021-04-21
+
 ## \[1.0.0-beta-rc.2]
 
 - Add missing camelcase rename for config
